@@ -19,6 +19,7 @@
 #  License along with liblouis. If not, see
 #  <http://www.gnu.org/licenses/>.
 
+
 include grc-international-common.uti
 
 # uppercase accented letters which have lowercase equivalents
@@ -55,11 +56,11 @@ letter \x1F29 46-125-156 # Ἡ Capital Eta with Dasia
 letter \x1F2D 46-125-123456 # Ἥ Capital Eta with Dasia and Oxia
 letter \x1F2B 46-125-2346 # Ἣ Capital Eta with Dasia and Varia
 letter \x1F2F 46-125-126 # Ἧ Capital Eta with Dasia and Perispomeni
-letter \x03AA 46-24 # Ϊ Capital Iota with Dialytika
+letter \x03AA 256-46-24 # Ϊ Capital Iota with Dialytika
 letter \x038A 46-12456 # Ί Capital Iota with Tonos
 letter \x1FDB 46-12456 # Ί Capital Iota with Oxia
 letter \x1FDA 46-34 # Ὶ Capital Iota with Varia
-letter \x1FD9 46-456-24 # Ῑ Capital Iota with Macron
+letter \x1FD9 25-46-24 # Ῑ Capital Iota with Macron
 letter \x1FD8 46-24 # Ῐ Capital Iota with Vrachy
 letter \x1F38 46-356-24 # Ἰ Capital Iota with Psili
 letter \x1F3C 46-356-12456 # Ἴ Capital Iota with Psili and Oxia
@@ -78,12 +79,13 @@ letter \x1F4A 46-356-346 # Ὂ Capital Omicron with Psili and Varia
 letter \x1F49 46-125-135 # Ὁ Capital Omicron with Dasia
 letter \x1F4D 46-125-246 # Ὅ Capital Omicron with Dasia and Oxia
 letter \x1F4B 46-125-346 # Ὃ Capital Omicron with Dasia and Varia
-letter \x1FEC 46-1235-125 # Ῥ Capital Rho with Dasia
+letter \x03AB 256-46-136 # Ϋ Capital Upsilon with Dialytika
+letter \x1FEC 46-125-1235 # Ῥ Capital Rho with Dasia
 letter \x03AB 46-136 # Ϋ Capital Upsilon with Dialytika
 letter \x038E 46-1256 # Ύ Capital Upsilon with Tonos
 letter \x1FEB 46-1256 # Ύ Capital Upsilon with Oxia
 letter \x1FEA 46-23456 # Ὺ Capital Upsilon with Varia
-letter \x1FE9 46-456-136 # Ῡ Capital Upsilon with Macron
+letter \x1FE9 25-46-136 # Ῡ Capital Upsilon with Macron
 letter \x1FE8 46-136 # Ῠ Capital Upsilon with Vrachy
 letter \x1F59 46-125-136 # Ὑ Capital Upsilon with Dasia
 letter \x1F5D 46-125-1256 # Ὕ Capital Upsilon with Dasia and Oxia
