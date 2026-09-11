@@ -105,6 +105,12 @@ noback context "\x05b9"[%cantDagesh.]"\x05d5" *@246
 ## the naked 346 cell, which would also match identical cells produced by
 ## other languages when this table is combined with them.
 noback context ["ּו"]%vowel @5a-2456
+### A dagesh+waw followed by a mater waw (holam-waw or shuruq),
+### with at most one mark in between, is a doubled consonantal waw
+noback context ["ּו"]"וֹ" @5a-2456
+noback context ["ּו"]%cantDagesh"וֹ" @5a-2456
+noback context ["ּו"]"ּו" @5a-2456
+noback context ["ּו"]%cantDagesh"ּו" @5a-2456
 noback context "ּו" @346
 
 ## Hiriq Yod
