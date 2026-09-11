@@ -54,6 +54,9 @@ tests:
   - ['צִוָּ֥ה', '⠮⠊⠐⠺⠣⠓']
   - ['צִוִּיתִ֔ים', '⠮⠊⠐⠺⠔⠹⠔⠍⠂']
   - ['מִֽי־יָשׂ֣וּם אִלֵּ֔ם א֣וֹ חֵרֵ֔שׁ א֥וֹ פִקֵּ֖חַ א֣וֹ עִוֵּ֑ר', '⠍⠔⠤⠚⠣⠱⠬⠍ ⠁⠊⠐⠇⠌⠍⠂ ⠁⠪ ⠭⠌⠗⠌⠩⠂ ⠁⠪ ⠋⠊⠐⠟⠌⠭⠉ ⠁⠪ ⠫⠊⠐⠺⠌⠗⠆']
+### A doubled consonantal waw before a holam-waw or a shuruq
+  - ['הַוּ֑וֹת', '⠓⠉⠐⠺⠪⠹⠆']
+  - ['וְיִשְׁתַּחֲוּ֥וּ', '⠺⠄⠚⠊⠩⠄⠳⠉⠭⠒⠐⠺⠬']
 
 ## Holam male written as holam + waw (holam on the preceding consonant)
 ### Logos Bible Software, BHS (SESB): Psalm 23:1 heading and Psalm 1:2
@@ -429,6 +432,9 @@ tests:
   - ['צִוָּ֥ה', '⠮⠊⠐⠺⠣⠨⠍⠓']
   - ['צִוִּיתִ֔ים', '⠮⠊⠐⠺⠔⠹⠂⠔⠍']
   - ['מִֽי־יָשׂ֣וּם אִלֵּ֔ם א֣וֹ חֵרֵ֔שׁ א֥וֹ פִקֵּ֖חַ א֣וֹ עִוֵּ֑ר', '⠍⠈⠔⠤⠚⠣⠱⠨⠥⠬⠍ ⠁⠊⠐⠇⠌⠂⠍ ⠁⠨⠥⠪ ⠭⠌⠗⠌⠂⠩ ⠁⠨⠍⠪ ⠋⠊⠐⠟⠌⠨⠞⠭⠉ ⠁⠨⠥⠪ ⠫⠊⠐⠺⠌⠆⠗']
+### A doubled consonantal waw before a holam-waw or a shuruq
+  - ['הַוּ֑וֹת', '⠓⠉⠐⠺⠆⠪⠹']
+  - ['וְיִשְׁתַּחֲוּ֥וּ', '⠺⠄⠚⠊⠩⠄⠳⠉⠭⠒⠐⠺⠨⠍⠬']
 
 ## Test of consonantal waw followed by holam
   - ['עֲוֹנִ֖י', '⠫⠒⠺⠕⠝⠨⠞⠔']
@@ -517,6 +523,9 @@ tests:
   - ['צִוָּ֥ה', '⠮⠊⠺⠣⠓']
   - ['צִוִּיתִ֔ים', '⠮⠊⠺⠔⠹⠔⠍']
   - ['מִֽי־יָשׂ֣וּם אִלֵּ֔ם א֣וֹ חֵרֵ֔שׁ א֥וֹ פִקֵּ֖חַ א֣וֹ עִוֵּ֑ר', '⠍⠔⠤⠚⠣⠱⠬⠍ ⠁⠊⠇⠌⠍ ⠁⠪ ⠭⠌⠗⠌⠩ ⠁⠪ ⠋⠊⠟⠌⠭⠉ ⠁⠪ ⠫⠊⠺⠌⠗⠆']
+### A doubled consonantal waw before a holam-waw or a shuruq
+  - ['הַוּ֑וֹת', '⠓⠉⠺⠪⠹⠆']
+  - ['וְיִשְׁתַּחֲוּ֥וּ', '⠺⠚⠊⠩⠳⠉⠭⠒⠺⠬']
 
 ## Holam male written as holam + waw (holam on the preceding consonant)
 ### Logos Bible Software, BHS (SESB): Psalm 23:1 heading and Psalm 1:2
