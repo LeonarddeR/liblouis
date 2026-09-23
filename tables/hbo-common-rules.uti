@@ -86,16 +86,15 @@ noback pass3 [@2456-135a]~ @246
 ## Holam written before its mater waw, with cantillation marks,
 ## meteg, rafe or dagesh in between
 attribute cantDagesh \x0591\x0592\x0593\x0594\x0595\x0596\x0597\x0598\x0599\x059a\x059b\x059c\x059d\x059e\x059f\x05a0\x05a1\x05a2\x05a3\x05a4\x05a5\x05a6\x05a7\x05a8\x05a9\x05aa\x05ab\x05ac\x05ad\x05ae\x05bc\x05bd\x05bf
-### A waw with a vowel of its own is a consonant, as in לֹוֶה.
-### These rules match one character more than the rules below them,
-### so the main pass picks them when a vowel follows and copies the
-### sequence unchanged.
-noback context ["\x05b9\x05d5"%vowel] *
-noback context ["\x05b9"%cantDagesh."\x05d5"%vowel] *
-### Otherwise drop the holam and braille the waw as holam-waw,
-### copying the marks in between
-noback context ["\x05b9\x05d5"] @246
-noback context "\x05b9"[%cantDagesh.]"\x05d5" *@246
+### A waw with a vowel of its own is a consonant, as in לֹוֶה, and
+### keeps its holam. Otherwise the holam is dropped and the waw is
+### brailled as holam-waw.
+noback context ["\x05b9\x05d5"]!%vowel @246
+### With marks in between, the holam is dropped and variable 1 flags
+### the waw, which is brailled as holam-waw when it is reached. The
+### marks are handled by their own rules.
+noback context ["\x05b9"]%cantDagesh."\x05d5"!%vowel ?#1=1
+noback context #1=1["\x05d5"] @246#1=0
 
 ## Shuruq and consonantal waw
 ## A dagesh+waw that is followed by a vowel is a consonantal waw with
